@@ -19,6 +19,7 @@ $(document).ready(function() {
 
     $.getJSON(url, function(data) {
         // Variable declarations
+        let postTitle = data.title.en_Latn;
         let titleId, scoreId, scoreRefer, genre = "", tag = "", scoreLink = "";
         let arrGenre = data.information.serialGenre.id_ID; // shorter variable
         let arrTag = data.information.serialTags.id_ID; // shorter variable
