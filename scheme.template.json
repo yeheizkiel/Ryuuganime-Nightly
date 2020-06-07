@@ -1,0 +1,19 @@
+{
+    "myAnimeList": 0,
+    "kitsu": 0,
+    "aniList": 0,
+    "aniDb": 0,
+    "notifyMoe": "",
+    "title": {
+        "en_Latn": "",
+        "en_US": "",
+        "native": ""
+    },
+    "ryuuganime": 0,
+    "path": {
+        "json": "/json/000/000.json",
+        "hjson": "/hjson/000/000.hjson",
+        "xml": "/xml/000/000.xml",
+        "yaml": "/yaml/000/000.yaml"
+    }
+}
