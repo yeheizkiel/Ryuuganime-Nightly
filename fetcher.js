@@ -15,7 +15,7 @@ $(document).ready(function() {
         baseDbUrl += "00" + pathAnime + ".json";
     }
 
-    let url = baseDbUrl + "?t=" + Date.now(); // Testing URL
+    let url = "json/000/003.json?t=" + Date.now(); // Testing URL
 
     $.getJSON(url, function(data) {
         // Variable declarations
