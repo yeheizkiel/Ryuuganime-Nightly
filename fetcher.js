@@ -28,7 +28,7 @@ $(document).ready(function() {
 
         console.log(data);
         
-        $('.post-title')[0].html(postTitle);
+        $('.post-title:first').html(postTitle);
         $('img:first').attr("src", data.backdrop);
         $('#synopsis').html(data.synopsis.id_ID); // using id_ID (default)
 
