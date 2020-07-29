@@ -6,7 +6,7 @@ $(document).ready(function() {
     let animeId = "?id=";
     let posId = pathAnime.indexOf(animeId);
     pathAnime = pathAnime.substr(posId + animeId.length, pathAnime.length);
-    let baseDbUrl = "./json/000/";
+    let baseDbUrl = "./json/000/"; 
     if (pathAnime > 9) {
         baseDbUrl += "0" + pathAnime + ".json";
     } else if (pathAnime > 99) {
