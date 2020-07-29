@@ -25,9 +25,8 @@ $(document).ready(function() {
         let arrTag = data.information.serialTags.id_ID; // shorter variable
         let score = $('.score').attr('href');
         let scoreException = "AnimePlanet";
-
-        console.log(data);
         
+        $('.current:first').html(postTitle);
         $('.post-title:first').html(postTitle);
         $('#backdrop').attr("src", data.backdrop);
         $('#synopsis').html(data.synopsis.id_ID); // using id_ID (default)
