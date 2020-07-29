@@ -15,7 +15,7 @@ $(document).ready(function() {
         baseDbUrl += "00" + pathAnime + ".json";
     }
 
-    let url = "https://raw.githubusercontent.com/yeheizkiel/Ryuuganime-Nightly/master/json/000/003.json"; // Testing URL
+    let url = "https://raw.githubusercontent.com/yeheizkiel/Ryuuganime-Nightly/master/json/000/003.json?t=" + Date.now(); // Testing URL
 
     $.getJSON(url, function(data) {
         // Variable declarations
