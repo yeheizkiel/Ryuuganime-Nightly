@@ -29,7 +29,7 @@ $(document).ready(function() {
         console.log(data);
         
         $('.post-title:first').html(postTitle);
-        $('#backdrop').attr("src", data.backdrop);
+        $('#postBackdrop').attr("src", data.backdrop);
         $('#synopsis').html(data.synopsis.id_ID); // using id_ID (default)
 
         $('.title').each(function () {
