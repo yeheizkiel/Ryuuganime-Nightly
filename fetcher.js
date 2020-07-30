@@ -26,7 +26,7 @@ $(document).ready(function() {
         let score = $('.score').attr('href');
         let scoreException = "AnimePlanet";
         
-        $('.post-thumb').attr("src", data.backdrop);
+        $('.post-thumb:first').attr("src", data.backdrop);
         
         
         $('.current:first').html(postTitle);
