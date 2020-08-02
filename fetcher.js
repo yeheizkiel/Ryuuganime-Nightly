@@ -27,7 +27,7 @@ $(document).ready(function() {
         let scoreException = "AnimePlanet";
         
         for (let l = 0; l < $('.post-thumb').length; l++) {
-            if ($('.post-thumb').attr("alt") == postTitle) {
+            if ($('.post-thumb')[l].attr("alt") == postTitle) {
                 $('.post-thumb')[l].attr("src", data.backdrop);
             }
         }
