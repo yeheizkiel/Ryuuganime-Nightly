@@ -26,11 +26,11 @@ $(document).ready(function() {
         let score = $('.score').attr('href');
         let scoreException = "AnimePlanet";
         
-        for (let l = 0; l < $('.post-thumb').length; l++) {
-            if ($('.post-thumb')[l].attr("alt") == postTitle) {
-                $('.post-thumb')[l].attr("src", data.backdrop);
-            }
-        }
+//         for (let l = 0; l < $('.post-thumb').length; l++) {
+//             if ($('.post-thumb')[l].attr("alt") == postTitle) {
+//                 $('.post-thumb')[l].attr("src", data.backdrop);
+//             }
+//         }
         
         
         $('.current:first').html(postTitle);
